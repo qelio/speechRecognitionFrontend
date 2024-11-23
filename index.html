@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Распознавание речи</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Распознавание речи</h1>
+    <button id="start-recording">Начать запись</button>
+    <button id="stop-recording" disabled>Остановить запись</button>
+    <p id="status">Нажмите "Начать запись", чтобы продолжить</p>
+    <audio id="audio-preview" controls></audio>
+    <button id="send-audio" disabled>Отправить на сервер</button>
+    <div id="transcription">
+        <h2>Расшифровка:</h2>
+        <p id="result">Ожидается запись</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
